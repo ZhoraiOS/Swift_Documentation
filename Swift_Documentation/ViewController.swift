@@ -9,11 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var clouserObject = Clouser()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(clouserObject.numberViceVersa(i: 4.5))
     }
-
 
 }
 

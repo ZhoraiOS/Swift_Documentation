@@ -13,7 +13,7 @@
 		9635D3EB28AD27620042CDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9635D3E928AD27620042CDE6 /* Main.storyboard */; };
 		9635D3ED28AD27650042CDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9635D3EC28AD27650042CDE6 /* Assets.xcassets */; };
 		9635D3F028AD27650042CDE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9635D3EE28AD27650042CDE6 /* LaunchScreen.storyboard */; };
-		9635D3F928AD27C70042CDE6 /* ClouserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635D3F828AD27C70042CDE6 /* ClouserViewController.swift */; };
+		9635D3FB28AD30E30042CDE6 /* Clouser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635D3FA28AD30E30042CDE6 /* Clouser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9635D3EC28AD27650042CDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9635D3EF28AD27650042CDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9635D3F128AD27650042CDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9635D3F828AD27C70042CDE6 /* ClouserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClouserViewController.swift; sourceTree = "<group>"; };
+		9635D3FA28AD30E30042CDE6 /* Clouser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		9635D3F728AD27AE0042CDE6 /* Clouser */ = {
 			isa = PBXGroup;
 			children = (
-				9635D3F828AD27C70042CDE6 /* ClouserViewController.swift */,
+				9635D3FA28AD30E30042CDE6 /* Clouser.swift */,
 			);
 			path = Clouser;
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9635D3FB28AD30E30042CDE6 /* Clouser.swift in Sources */,
 				9635D3E828AD27620042CDE6 /* ViewController.swift in Sources */,
 				9635D3E428AD27620042CDE6 /* AppDelegate.swift in Sources */,
-				9635D3F928AD27C70042CDE6 /* ClouserViewController.swift in Sources */,
 				9635D3E628AD27620042CDE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
